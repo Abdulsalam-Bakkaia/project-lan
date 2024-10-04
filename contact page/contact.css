@@ -1,0 +1,43 @@
+/* contact */
+.text-contact {
+  margin-top: 30px;
+  height: 20vh;
+  text-align: center;
+}
+.text-contact h1 {
+  font-size: 54px;
+}
+.text-contact p {
+  font-size: 20px;
+}
+.forms {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.forms form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  width: 20rem;
+  transition: all 0.3s ease;
+  border: 1px solid #000000;
+}
+form input:focus {
+  border: 2px solid orange;
+}
+
+.contact-info {
+  width: 60%;
+}
+.contact-info h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.contact-info p {
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Details</title>
+  </head>
+
+  <body>
+    <div>
+      <h1>User Details Form</h1>
+    </div>
+    <label for="name">Enter Name:</label>
+    <input type="text" id="nameInput" /><br /><br />
+
+    <label for="age">Enter Age:</label>
+    <input type="number" id="ageInput" /><br /><br />
+
+    <label for="course">Enter Course:</label>
+    <input type="text" id="courseInput" /><br /><br />
+
+    <button onclick="getUserDetails()">Submit</button>
+    <script>
+      function getUserDetails() {
+        const name = document.getElementById("nameInput").value;
+        const age = document.getElementById("ageInput").value;
+        const course = document.getElementById("courseInput").value;
+        let nav = `
+        <div class="container">
+          <div>
+            <h1>Welcome ${name} in ${course} course and Your age is ${age} Years</h1>
+          </div>
+        </div>
+        <style>
+          .container {
+            display: flex;
+            position: relative;
+            width: 100%;
+          }
+          .container  div {
+            display: flex;
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            background-color:#eee;
+            transform: translate(50%);
+            box-shadow: black 0.5 1000px 0 0 0;
+          }
+          .container div h1{
+            margin:25px;
+          }
+         </style>
+          `;
+        return document.write(nav);
+      }
+    </script>
+  </body>
+</html>

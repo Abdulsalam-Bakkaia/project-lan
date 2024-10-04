@@ -1,0 +1,287 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css" />
+    <title>About Page</title>
+
+    <!-- main template css file -->
+    <link rel="stylesheet" href="./leon.css" />
+    <!-- render all elements  -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font awsome library -->
+    <link rel="stylesheet" href="./all.min.css" />
+
+    <!-- global css -->
+    <link rel="stylesheet" href="../assets/css/app.css" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <div class="container">
+          <h1>Home</h1>
+          <nav>
+            <ul>
+              <li><a href="../home page/home.html">Home</a></li>
+              <li><a href="../about us/about.html">About</a></li>
+              <li><a href="../contact page/contact.html">Contact</a></li>
+              <li class="producthoverd">
+                Products
+                <ul>
+                  <li><a href="../products/furniture.html">furniture</a></li>
+                  <li><a href="../products/bookshape.html">bookshape</a></li>
+                  <li><a href="../products/beds.html">beds</a></li>
+                  <li><a href="../products/lamps.html">lamps</a></li>
+                  <li><a href="../products/tables.html">tables</a></li>
+                  <li><a href="../products/others.html">others</a></li>
+                </ul>
+              </li>
+              <li class="producthoverd">
+                Works
+                <ul>
+                  <li><a href="../works/overlay1.html">overlay1</a></li>
+                </ul>
+              </li>
+              <li class="producthoverd">
+                Single project
+                <ul>
+                  <li><a href="../projects/project.html">interior</a></li>
+                  <li><a href="../projects/project2.html">right image</a></li>
+                  <li>
+                    <a href="../projects/project3.html">image with caption</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <a class="btn" href="../index.html">Register</a>
+            <a class="btn" href="../ask user/ask.html">Ask User</a>
+          </div>
+        </div>
+      </header>
+      <div>
+        <div class="about-main">
+          <h1>Get to know us</h1>
+          <p>Meet our team of expert</p>
+        </div>
+        <div class="our-story">
+          <div class="stor-img">
+            <img src="../assets/about-imgs/archi-18-800x600.jpg" alt="room" />
+          </div>
+          <div class="stor-txt">
+            <h2>Our Story</h2>
+            <p>
+              Sed faucibus arcu. Donec semper risus arcu, nec tempor nisl
+              vestibulum nec. Suspendisse tempor posuere sodales. Mauris
+              molestie vestibulum sem id posuere. Aliquam interdum lacinia ante
+              quis pharetra. Curabitur molestie ultrices consequat. Vivamus
+              finibus ex vel fermentum ultricies. Mauris interdum eros sit amet
+              eros commodo euismod. We have been operating for over 30 years and
+              are Members of The Federation of Master Builders.
+            </p>
+          </div>
+        </div>
+        <div class="our-goal">
+          <div class="sec1">
+            <h2>Our Goal</h2>
+            <p>
+              We have been operating for over 30 years and are Members of The
+              Federation of Master Builders. We work on projects big and small
+              from small residential extensions to full house and commercial
+              builds and we are registered NHBC house builders.
+            </p>
+          </div>
+          <div class="goal-img">
+            <img src="../assets/about-imgs/archi-15-800x600.jpg" alt=".." />
+          </div>
+        </div>
+        <div class="our-methods">
+          <div class="container">
+            <IoInfiniteOutline />
+            <h1>Our Methods</h1>
+            <p>Learn more about us.</p>
+            <div class="tabs">
+              <ul class="flexible">
+                <li class="flex-fill" onclick="openPage(event,'Page1')">
+                  Our Goal
+                </li>
+                <li class="flex-fill" onclick="openPage(event,'Page2')">
+                  Our Methods
+                </li>
+                <li class="flex-fill" onclick="openPage(event,'Page3')">
+                  Our Results
+                </li>
+              </ul>
+              <div id="Page1" class="tabcontent" style="display: none">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  ultrices nisl diam, vitae consequat massa lacinia consequat.
+                  Nullam cursus risus a sem pretium lacinia. Etiam facilisis
+                  laoreet justo. Morbi mattis, turpis quis volutpat fermentum,
+                  lacus ante sagittis eros, vitae imperdiet leo felis ut ligula.
+                  Nulla sollicitudin lorem quis tempor mattis. Maecenas
+                  tincidunt nibh a velit dapibus gravida. Aliquam nisi enim,
+                  viverra eu nulla sed, fermentum volutpat dui. Nulla
+                  sollicitudin lorem quis.
+                </p>
+                <p>
+                  Phasellus mattis efficitur sollicitudin. Aliquam nisi enim,
+                  viverra eu nulla sed, fermentum volutpat dui. Proin nec dui
+                  congue neque cursus ullamcorper. Sed ipsum risus, ultrices a
+                  posuere ac, molestie sed tortor. Aenean gravida enim velit, ut
+                  auctor eros porttitor in. Phasellus consectetur a est dictum
+                  aliquet. Nulla et neque efficitur, auctor purus vel, ornare
+                  tellus. Aenean non tellus elementum purus feugiat ullamcorper
+                  a ut urna. Interdum et malesuada fames ac ante ipsum primis in
+                  faucibus. Nam fermentum tristique ante.
+                </p>
+              </div>
+              <div id="Page2" class="tabcontent" style="display: none">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  ultrices nisl diam, vitae consequat massa lacinia consequat.
+                  Nullam cursus risus a sem pretium lacinia. Etiam facilisis
+                  laoreet justo. Morbi mattis, turpis quis volutpat fermentum,
+                  lacus ante sagittis eros, vitae imperdiet leo felis ut ligula.
+                  Nulla sollicitudin lorem quis tempor mattis. Maecenas
+                  tincidunt nibh a velit dapibus gravida. Phasellus mattis
+                  efficitur sollicitudin. Aliquam nisi enim, viverra eu nulla
+                  sed, fermentum volutpat dui. Proin nec dui congue neque cursus
+                  ullamcorper. Sed ipsum risus, ultrices a posuere ac, molestie
+                  sed tortor. Aenean gravida enim velit, ut auctor eros
+                  porttitor in. Phasellus consectetur a est dictum aliquet.
+                  Nulla et neque efficitur, auctor purus vel, ornare tellus.
+                  Aenean non tellus elementum purus feugiat ullamcorper a ut
+                  urna. Interdum et malesuada fames ac ante ipsum primis in
+                  faucibus. Nam fermentum tristique ante.
+                </p>
+              </div>
+              <div id="Page3" class="tabcontent" style="display: none">
+                <p>
+                  Per seacula quarta decima et quinta decima. Modo typi, qui
+                  nunc nobis videntur parum clari, fiant sollemnes in futurum
+                  quarta decima. Lorem ipsum dolorum have a great day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-team">
+          <div class="container">
+            <FaRegUser />
+            <h1>Our Dedicated Team</h1>
+            <p>Learn more about our architecture experts.</p>
+            <div class="flexible">
+              <div class="card">
+                <div>
+                  <h3>John Doe</h3>
+                </div>
+                <h5>Barista</h5>
+                <p>
+                  Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                  ultricies nisi at scelerisque pellentesque. Nunc feugiat felis
+                  vitae aliquet consequat. Aliquam ullamcorper accumsan lectus,
+                  a tempor turpis interdum sed. Donec ac faucibus nunc.
+                </p>
+              </div>
+              <div class="card">
+                <div>
+                  <h3>John Doe</h3>
+                </div>
+                <h5>Barista</h5>
+                <p>
+                  Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                  ultricies nisi at scelerisque pellentesque. Nunc feugiat felis
+                  vitae aliquet consequat. Aliquam ullamcorper accumsan lectus,
+                  a tempor turpis interdum sed. Donec ac faucibus nunc.
+                </p>
+              </div>
+              <div class="card">
+                <div>
+                  <h3>John Doe</h3>
+                </div>
+                <h5>Barista</h5>
+                <p>
+                  Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                  ultricies nisi at scelerisque pellentesque. Nunc feugiat felis
+                  vitae aliquet consequat. Aliquam ullamcorper accumsan lectus,
+                  a tempor turpis interdum sed. Donec ac faucibus nunc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="client">
+          <h1>What Clients Say?</h1>
+          <p>What our awesome clients say about us.</p>
+          <div id="carousel">
+            <p>
+              Humanitatis per seacula quarta decima et quinta decima. Modo typi,
+              qui nunc nobis videntur parum clari, fiant sollemnes in futurum
+              quarta decima. Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Nam ipsa reiciendis dolorum harum voluptas quas, dolor culpa
+              beatae corporis! Excepturi?
+            </p>
+            <p style="display: none">
+              Formas humanitatis per seacula quarta decima et quinta decima.
+              Modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in
+              futurum quarta decima et quinta decima. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Doloribus numquam doloremque sed
+              sapiente ab. Voluptates veritatis quam consequatur dicta quos.
+            </p>
+            <p style="display: none">
+              Per seacula quarta decima et quinta decima. Modo typi, qui nunc
+              nobis videntur parum clari, fiant sollemnes in futurum quarta
+              decima. Lorem ipsum dolorum have a great day. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Eveniet, autem itaque vero
+              maxime ducimus quaerat sint necessitatibus dicta unde voluptates!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="fourth-section">
+      <div>
+        <h1>Contact Information</h1>
+        <p>
+          I am text block. Click edit button to change this text. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+          nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+      </div>
+      <div class="details">
+        <p>Our contact details:</p>
+        <div>
+          <i class="fa-solid fa-location-pin"></i>
+          <span>Manchester St 123-78B, Random 713, UK</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <span>+46 123 456 789</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <span>+37 431 456 789</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <span>hello@sitename.com</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright 2017 All rights reserved.</p>
+      <div>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </footer>
+    <script src="../assets/js/app.js"></script>
+  </body>
+</html>

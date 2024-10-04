@@ -1,0 +1,143 @@
+/* project section */
+.text-contact {
+  margin-top: 30px;
+  height: 20vh;
+  text-align: center;
+}
+.text-contact h1 {
+  font-size: 54px;
+}
+.text-contact p {
+  font-size: 20px;
+}
+
+/* accord */
+
+img {
+  width: 640px;
+  height: 320px;
+}
+
+.accord {
+  width: 805px;
+  height: 320px;
+  overflow: hidden;
+}
+
+.accord li {
+  width: 160px;
+  display: block;
+  position: relative;
+  float: left;
+  border-left: 1px solid #ddd;
+  transition: all 0.5s;
+}
+
+.tit {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 10px;
+  width: 640px;
+}
+
+.tit a {
+  display: block;
+  color: #ddd;
+  padding: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.accord ul:hover li {
+  width: 40px;
+}
+
+.accord ul li:hover {
+  width: 640px;
+}
+.flexible {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  font-size: 22px;
+  flex-wrap: wrap;
+}
+.details-img {
+  width: 400px;
+  text-align: left;
+  margin-top: 20px;
+}
+.details-img h1 {
+  font-size: 33px;
+}
+.details-img ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 0;
+  padding: 0;
+}
+.details-img ul li {
+  padding-top: 10px;
+}
+@media (max-width: 1250px) {
+  .details-img {
+    width: 100%;
+    text-align: center;
+  }
+  .details-img ul {
+    align-items: center;
+  }
+  .accord {
+    margin: auto;
+  }
+}
+@media (max-width: 860px) {
+  img {
+    width: 300px;
+    height: 200px;
+  }
+  .accord {
+    width: 590px;
+    height: 200px;
+  }
+  .accord li {
+    width: 145px;
+    display: block;
+    position: relative;
+    display: flex;
+    border-left: 1px solid #ddd;
+    transition: all 0.5s;
+  }
+  .tit {
+    width: 300px;
+    bottom: 5px;
+  }
+  .accord ul:hover li {
+    width: 110px;
+  }
+
+  .accord ul li:hover {
+    width: 305px;
+  }
+}
+@media (max-width: 584px) {
+  .accord img {
+    width: 200px;
+  }
+  .tit {
+    display: none;
+  }
+  .accord ul {
+    display: flex;
+    justify-content: center;
+  }
+  .accord {
+    width: 500px;
+  }
+  .accord li {
+    width: 50px;
+  }
+}

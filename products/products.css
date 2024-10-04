@@ -1,0 +1,27 @@
+/* furniture */
+.furniture {
+  text-align: center;
+  margin: 20px 0;
+}
+.cards {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards li {
+  background-color: aliceblue;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+.cards li > *:not(:first-child) {
+  padding-left: 15px;
+}
+
+/* beds */
+.beds {
+  text-align: center;
+  margin: 20px 0;
+}
+.bed img {
+  width: 300px;
+}
